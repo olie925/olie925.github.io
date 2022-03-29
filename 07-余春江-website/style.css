@@ -1,0 +1,64 @@
+
+
+/*导航栏右侧链接样式*/
+ul {
+    list-style-type: none;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color:#4CAF50;
+  }
+
+  .active {
+    background-color: black;
+    color: white;
+  }
+
+/*大标题格式*/
+#HEAD{
+  margin-left: 100px;
+}
+
+/*小标题格式*/
+.titles{
+  margin-left: 100px;
+}
+
+/*正文文字格式*/
+.content{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#footer{
+  color:#CCC; 
+  background:#630202;
+  bottom: 0%;
+  position: relative;
+  left: 0%;
+
+  
+  height: 45px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+
+} 
